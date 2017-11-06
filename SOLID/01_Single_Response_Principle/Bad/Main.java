@@ -10,12 +10,12 @@ import java.util.ArrayList;
  * 
  *********************/
 
-public class Main {
+class Board {
 	ArrayList<String> spots;
 	
 	// 생성자
 	// 멤버필드 초기화
-	public Main(){
+	public Board(){
 		this.spots = new ArrayList<String>();
 		for(int i = 0; i < 9; i++){
 			this.spots.add(String.valueOf(i));

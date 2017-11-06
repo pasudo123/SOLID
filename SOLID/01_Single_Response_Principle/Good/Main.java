@@ -35,9 +35,9 @@ class BoardShaper{
 }
 
 class BoardPresenter {
-	Main board;
+	Board board;
 	
-	public BoardPresenter(Main board){
+	public BoardPresenter(Board board){
 		this.board = board;
 	}
 	
@@ -64,12 +64,12 @@ class BoardPresenter {
 	}
 }
 
-class Main {
+class Board {
     int size;
     ArrayList<String> spots;
     
     // 생성자
-    public Main(int size) {
+    public Board(int size) {
         this.size = size;
         this.spots = new ArrayList<String>();
         for (int i = 0; i < size; i++) {
