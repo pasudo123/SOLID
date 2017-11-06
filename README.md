@@ -30,5 +30,5 @@ SOLID (Object-Oriented Design)
 ************************************************************************
 
 - reference 
-https://github.com/mikeknep/SOLID
-http://www.nextree.co.kr/p6960/
+1. https://github.com/mikeknep/SOLID
+2. http://www.nextree.co.kr/p6960/
