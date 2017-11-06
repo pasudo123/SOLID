@@ -7,6 +7,10 @@ package Good;
  * 
  *********************/
 
+interface Personality {
+	public String greet();
+}
+
 class IntimatePersonality implements Personality{
 	@Override
 	public String greet() {
